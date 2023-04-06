@@ -2,7 +2,7 @@ package problems_leet_code;
 
 public class PlusOne {
     public static void main(String[] args) {
-        int[] digits = {9, 9, 9, 9, 9};
+        int[] digits = {2, 9, 3, 9, 9};
         boolean flag = false;
 
         for (int i = digits.length - 1; i >= 0; i--) {
@@ -17,8 +17,8 @@ public class PlusOne {
             digits[0] = 1;
          }
 
-        for (int i = digits.length - 1; i >= 0; i--) {
-            System.out.println(digits[i]);
+        for (int i = 0; i < digits.length; i++) {
+            System.out.print(digits[i] + " ");
         }
     }
 }
