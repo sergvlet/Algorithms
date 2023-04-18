@@ -30,7 +30,7 @@ public class CommonNamber {
             }
         }
 
-        System.out.println("Число которое встречалось чаще всего: " + maxNumber);
+        System.out.println( "\n" + "Число которое встречалось чаще всего: " + maxNumber);
     }
 }
 
