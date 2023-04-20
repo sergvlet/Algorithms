@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da8599f4-e04f-49a8-9490-ab1413c17b06" name="Changes" comment="Create README.md" />
+    <list default="true" id="da8599f4-e04f-49a8-9490-ab1413c17b06" name="Changes" comment="Create README.md">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/problems_leet_code/PascalTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems_leet_code/PascalTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/problems_leet_code/PascalTriangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/problems_leet_code/PascalTriangle.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +31,7 @@
     <setting file="file://$PROJECT_DIR$/src/main/java/problems_leet_code/ValidPolindrome.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/problems_leet_code/SingleNumber.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/problems_leet_code/ContainsDublecate.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/problems_leet_code/PascalTriangle.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/problems_leet_code/MergeSortedArray.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/problems_leet_code/RemoveDuplecates.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/problems_leet_code/PlusOne.java" root0="SKIP_INSPECTION" />
@@ -58,7 +63,7 @@
     <property name="project.structure.side.proportion" value="0.14591078" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager" selected="Application.CommonNamber">
+  <component name="RunManager" selected="Application.PascalTriangle">
     <configuration name="CommonNamber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problems_leet_code.CommonNamber" />
       <module name="Algorithms" />
@@ -98,8 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems_leet_code.MergeSortedArray" />
+    <configuration name="PascalTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems_leet_code.PascalTriangle" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -131,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PascalTriangle" />
         <item itemvalue="Application.CommonNamber" />
         <item itemvalue="Application.ContainsDublecate" />
         <item itemvalue="Application.FirstUniqChar" />
         <item itemvalue="Application.SingleNumber" />
-        <item itemvalue="Application.MergeSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +154,7 @@
       <updated>1680782963692</updated>
       <workItem from="1680782965163" duration="1269000" />
       <workItem from="1681026122165" duration="11654000" />
-      <workItem from="1681552602740" duration="19566000" />
+      <workItem from="1681552602740" duration="25463000" />
     </task>
     <task id="LOCAL-00001" summary="Create README.md">
       <created>1680783713513</created>
@@ -263,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681812127097</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Create README.md">
+      <created>1681812202218</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1681812202218</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
