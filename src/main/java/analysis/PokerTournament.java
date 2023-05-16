@@ -16,21 +16,19 @@ public class PokerTournament {
         System.out.print("Введите количество игроков от 300 до 600: ");
         int numPlayers = sc.nextInt();
 
-         System.out.print("Введите байин: ");
-         double buyIn = sc.nextDouble();
+        System.out.print("Введите байин: ");
+        double buyIn = sc.nextDouble();
 
-         System.out.print("Введите количество игроков команды : ");
-         int myPlayers = sc.nextInt();
+        System.out.print("Введите количество игроков команды : ");
+        int myPlayers = sc.nextInt();
 
         System.out.print("Введите количество турниров : ");
         int numberOfTournaments = sc.nextInt();
 
 
-        System.out.println(winningCalculation(players(numPlayers,"winners.txt"),numberOfTournaments,myPlayers, (int) buyIn));
+        System.out.println(winningCalculation(players(numPlayers, "winners.txt"), numberOfTournaments, myPlayers, (int) buyIn));
 
     }
-
-
 
 
     public static List<Integer> players(int numPlayers, String filename) throws FileNotFoundException {
@@ -53,23 +51,20 @@ public class PokerTournament {
         }
         return listPlayers;
     }
-    public static Integer winningCalculation(List<Integer> list,int numberOfTournaments,int  myPlayers, int buyIn){
-        int sum = 0;
+
+    public static Integer winningCalculation(List<Integer> list, int numberOfTournaments, int myPlayers, int buyIn) {
         int totalPrizeTournament = 0;
-        for (int i = 0; i < numberOfTournaments - 1 ; i++) {
+        for (int i = 0; i < numberOfTournaments - 1; i++) {
             //System.out.println(list);
             Collections.shuffle(list);
             //System.out.println(list.subList(0,myPlayers));
             for (int j = 0; j < myPlayers; j++) {
                 totalPrizeTournament += list.get(j);
             }
-
-           // System.out.println(totalPrizeTournament);
-
-
+            // System.out.println(totalPrizeTournament);
         }
         //System.out.println(buyIn * myPlayers * numberOfTournaments);
-        return (totalPrizeTournament)- (buyIn * myPlayers * numberOfTournaments);
+        return (totalPrizeTournament) - (buyIn * myPlayers * numberOfTournaments);
     }
 
 }
