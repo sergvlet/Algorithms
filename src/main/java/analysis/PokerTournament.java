@@ -43,8 +43,9 @@ public class PokerTournament {
                     listPlayers.add(gift);
                 } else {
                     listPlayers.add((int) 0);
-                    Collections.shuffle(listPlayers);
+
                 }
+                // Collections.shuffle(listPlayers);
             }
 
         } catch (IOException e) {

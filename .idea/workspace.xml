@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da8599f4-e04f-49a8-9490-ab1413c17b06" name="Changes" comment="Create README.md">
-      <change afterPath="$PROJECT_DIR$/src/main/java/analysis/PokerTournament.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems_leet_code/ComputerInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/winners.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/problems_leet_code/MergeSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems_leet_code/MergeSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/problems_leet_code/MergeSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/problems_leet_code/MergeSortedArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/problems_leet_code/PascalTriangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/problems_leet_code/PascalTriangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/analysis/PokerTournament.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/analysis/PokerTournament.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +167,7 @@
       <workItem from="1682932468883" duration="848000" />
       <workItem from="1683149367961" duration="9244000" />
       <workItem from="1683533337121" duration="37704000" />
-      <workItem from="1683801543861" duration="56037000" />
+      <workItem from="1683801543861" duration="57952000" />
     </task>
     <task id="LOCAL-00001" summary="Create README.md">
       <created>1680783713513</created>
@@ -314,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682001115624</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Create README.md">
+      <created>1684269250159</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1684269250159</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
